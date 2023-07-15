@@ -49,7 +49,7 @@ dependencies:
 8. build project เพื่อ clone component ลงมาที่ project ของเรา
 9. แก้ไข code ใน main.c เพื่อเรียกใช้ component
 
-#URL
+# URL
 
 1. project ข้อ 1 = https://github.com/RachataS/IOT_W2.git
 2. project ข้อ 4 = https://github.com/RachataS/IOT_W2.2.git
