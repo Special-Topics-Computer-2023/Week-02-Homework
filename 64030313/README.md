@@ -10,6 +10,9 @@
 <img width="863" alt="5" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/d17e5113-d640-478c-aabc-e7cdcc647090">
 
 3. ทำการ Push project พร้อม component ขึ้นไปที่ remote repository ใน account github ส่วนตัว
+<img width="1280" alt="6" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/a7c0ef46-6a19-4b78-b379-a893db2e05ea">
+<img width="1278" alt="7" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/01308d94-823d-4ba2-b8d9-ec995f7acaa2">
+
 4. สร้าง idf-project อีก project ที่ไม่เกี่ยวกับในข้อ 1
 5. เพิ่ม managed component ใน project ในข้อ 4 โดยการเพิ่มไฟล์ idf_component.yml  ในโฟลเดอร์ main จากนั้น build และ run project
 6. เขียน code เพื่อแสดงการใช้งาน component ที่เพิ่มเข้ามาในข้อ 5 แล้ว push โปรเจคไว้บน github
