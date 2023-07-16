@@ -23,10 +23,8 @@
 <img width="758" alt="12" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/95d7615b-428d-497f-8798-786e93b76ed4"><br>
 ไฟล์ idf_component.yml
 <img width="941" alt="13" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/f8be5dd5-c5ba-471c-ad5d-e512488b3335"><br>
-Build Project
-<img width="1376" alt="14" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/8dce8295-5adc-491a-94eb-9a12067b6453"><br>
-Run Project
-<img width="1374" alt="15" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/575307e0-d1fd-4122-bd3b-3de538535fcc">
+Build Project & Run Project
+<img width="1376" alt="14" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/8dce8295-5adc-491a-94eb-9a12067b6453">
 
 7. เขียน code เพื่อแสดงการใช้งาน component ที่เพิ่มเข้ามาในข้อ 5 แล้ว push โปรเจคไว้บน github
 ```c
