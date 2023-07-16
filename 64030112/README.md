@@ -1,32 +1,70 @@
-# _Sample project_
+# 64030112
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+1. สร้าง project ใน vs code
+2. สร้าง components LED ใน project
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+![Screenshot 2566-07-16 at 23 05 32](https://github.com/Fixckpx/Week-02-Homework/assets/115066186/2dc24b9f-a278-4e1e-823a-7f8e41d864a9)
 
+3. แก้ไข code ใน LED.h
 
+```css
+void LEDON(gpio_pin);
+void LEDOFF(gpio_pin);
+```
+4. แก้ไข code ใน LED.c
+```css
+#include <stdio.h>
+#include "LED.h"
+#include "driver/gpio.h"
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
-
-## Example folder contents
-
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
+void LEDON(int gpio_pin)
+{
+    gpio_set_level(gpio_pin, 1);
+}
+void LEDOFF(int gpio_pin)
+{
+    gpio_set_level(gpio_pin, 0);
+}
+```
+5. upload projecะ
+6. สร้าง project ใหม่
+7. แก้ไข idf_component.yml
+```css
+targets:
+  - esp32
+description: component example of esp32
+dependencies:
+  LED_class:
+    git: https://github.com/Fixckpx/iowW2.git
+    path: components/LED
 
 ```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
+8. build project
+9. แก้ไข code ใน main.c
+```css
+#include <stdio.h>
+#include <stdbool.h>
+#include <unistd.h>
+#include "driver/gpio.h" // เพื่อการใช้งาน digital output (GPIO)
+#include "LED.h"
+
+#define gpio 22
+int gpio_pin = pin;
+
+void app_main(void)
+{
+    gpio_reset_pin(gpio);                       // รีเซ็ตสถานะของขาหมายเลข 22
+    gpio_set_direction(gpio, GPIO_MODE_OUTPUT); // กำหนดให้ขาหมายเลข 22 เป็น digital output
+
+    while (true) // while (true) = วนรอบไม่มีที่สิ้นสุด
+    {
+        LEDON(gpio_pin);
+        sleep(1); // หน่วงเวลา 1 วินาที
+        LEDOFF(gpio_pin);
+        sleep(1); // หน่วงเวลา 1 วินาที
+    }
+}
 ```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+10. run project
+project 1 https://github.com/Fixckpx/iowW2.git
+project 2 https://github.com/Fixckpx/iowCom.git
