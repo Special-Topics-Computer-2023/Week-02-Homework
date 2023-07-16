@@ -19,6 +19,9 @@
 <img width="864" alt="10" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/d92ec74d-a083-47bc-8ffa-eb907278db4b">
 
 5. เพิ่ม managed component ใน project ในข้อ 4 โดยการเพิ่มไฟล์ idf_component.yml  ในโฟลเดอร์ main จากนั้น build และ run project
+<img width="866" alt="11" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/489a6e4d-bcdb-44a8-8b32-b492d3fefdc0">
+<img width="758" alt="12" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/95d7615b-428d-497f-8798-786e93b76ed4">
+
 6. เขียน code เพื่อแสดงการใช้งาน component ที่เพิ่มเข้ามาในข้อ 5 แล้ว push โปรเจคไว้บน github
 
 ## งานที่ต้องส่ง
