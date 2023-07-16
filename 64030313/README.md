@@ -1,6 +1,8 @@
 # การบ้าน สัปดาห์ที่ 02
 
 1. สร้าง idf-project ใหม่
+<img width="892" alt="1" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/cd3c3c90-cd79-424c-ad02-002be02c0b20">
+
 2. สร้าง idf-component ขึ้นใน project ที่สร้างในข้อ 1
 3. ทำการ Push project พร้อม component ขึ้นไปที่ remote repository ใน account github ส่วนตัว
 4. สร้าง idf-project อีก project ที่ไม่เกี่ยวกับในข้อ 1
