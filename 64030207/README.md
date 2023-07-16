@@ -1,4 +1,3 @@
-# 64030161 Rachata Supanurak
 
 1. สร้าง component LED ใน project 1
 
@@ -42,7 +41,7 @@ targets:
 description: component example of esp32
 dependencies:
   LED_class:
-    git: https://github.com/RachataS/IOT_W2.git //เลือก repo mี่ต้องการเรียกใช้ component
+    git: 
     path: components/LED //เลือก path ของ component
 
 ```
