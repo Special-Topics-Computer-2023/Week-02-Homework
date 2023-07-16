@@ -6,8 +6,8 @@
 
 void blink(int pin)
 {
-	gpio_set_level(22, 1);
+	gpio_set_level(pin, 1);
 	usleep(500000);
-	gpio_set_level(22, 0);
+	gpio_set_level(pin, 0);
 	usleep(500000);
 }
