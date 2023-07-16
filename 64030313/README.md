@@ -1,4 +1,4 @@
-<img width="1374" alt="15" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/e5d30e3f-b3bb-498b-b474-809581a51553"># การบ้าน สัปดาห์ที่ 02
+# การบ้าน สัปดาห์ที่ 02
 
 1. สร้าง idf-project ใหม่
 <img width="892" alt="1" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/cd3c3c90-cd79-424c-ad02-002be02c0b20">
