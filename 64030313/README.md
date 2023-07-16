@@ -43,6 +43,10 @@ void app_main(void)
     }
 }
 ```
+## Link โปรเจค
+ - [โปรจค ข้อ 3](https://github.com/NamaoySudarat/Week-02-Homework/tree/main/64030313/homework_week2)
+ - [โปรเจค ข้อ 6](https://github.com/NamaoySudarat/Week-02-Homework/tree/main/64030313/homework_week2-02)
+
 ## งานที่ต้องส่ง
 1. อธิบายการปฏิบัติงานในแต่ละขั้น หรืออาจจะ capture เป็นคลิปแล้ว upload ขึ้น ํYoutube 
 2. ส่งงานผ่านการ pull request ใน repo นี้ โดยมีสิ่งที่ต้องส่งคือ  
