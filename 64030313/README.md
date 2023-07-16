@@ -2,6 +2,7 @@
 
 1. สร้าง idf-project ใหม่
 <img width="892" alt="1" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/cd3c3c90-cd79-424c-ad02-002be02c0b20">
+<img width="759" alt="2" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/49324053-dd84-4691-bace-dd431665a703">
 
 2. สร้าง idf-component ขึ้นใน project ที่สร้างในข้อ 1
 3. ทำการ Push project พร้อม component ขึ้นไปที่ remote repository ใน account github ส่วนตัว
