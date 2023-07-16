@@ -1,0 +1,7 @@
+targets:
+  - esp32
+description: component example of esp32
+dependencies:
+  LED_class:
+    git: https://github.com/NamaoySudarat/Week-02-Homework
+    path: 64030313/homework_week2/components/blink
