@@ -2,7 +2,7 @@
 
 1. สร้าง component LED ใน project 1
 
-![Screenshot 2566-07-16 at 01 36 41](https://github.com/RachataS/Week-02-Homework/assets/115066261/cb45e3cd-3c3b-4e71-a4ba-2e234478730f)
+
 
 2. แก้ไขไฟล์ LED.h ใน component
 
@@ -51,5 +51,5 @@ dependencies:
 
 # URL
 
-1. project ข้อ 1 = https://github.com/RachataS/IOT_W2.git
-2. project ข้อ 4 = https://github.com/RachataS/IOT_W2.2.git
+1. project ข้อ 1 = 
+2. project ข้อ 4 = 
