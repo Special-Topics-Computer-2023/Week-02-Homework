@@ -9,9 +9,24 @@
 ![ภาพ](https://github.com/Sittinon-Sawatdemongkol/Week-02-Homework/assets/115066278/3b29479f-76c6-4891-8cfc-c1dad3b7f05e)
 
 3.แก้ไขไฟล์ LED.h ใน component
-
 ```css
 void ON(pin);
 void OFF(pin);
+
+```
+4.แก้ไขไฟล์ LED.c ใน component
+```css
+#include <stdio.h>
+#include "LED.h"
+#include "driver/gpio.h"
+
+void ON(int pin)
+{
+    gpio_set_level(pin, 1);
+}
+void OFF(int pin)
+{
+    gpio_set_level(pin, 0);
+}
 
 ```
