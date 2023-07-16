@@ -8,3 +8,9 @@
 ![ภาพ](https://github.com/Sittinon-Sawatdemongkol/Week-02-Homework/assets/115066278/1a9f634f-34ac-4e7a-8762-820e6d3e62fe)
 ![ภาพ](https://github.com/Sittinon-Sawatdemongkol/Week-02-Homework/assets/115066278/3b29479f-76c6-4891-8cfc-c1dad3b7f05e)
 
+3.แก้ไขไฟล์ LED.h ใน component
+
+```css
+void ON(pin);
+void OFF(pin);
+```css
