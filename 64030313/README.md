@@ -44,7 +44,7 @@ void app_main(void)
 }
 ```
 ## Link โปรเจค
- - [โปรจค ข้อ 3](https://github.com/NamaoySudarat/Week-02-Homework/tree/main/64030313/homework_week2)
+ - [โปรเจค ข้อ 3](https://github.com/NamaoySudarat/Week-02-Homework/tree/main/64030313/homework_week2)
  - [โปรเจค ข้อ 6](https://github.com/NamaoySudarat/Week-02-Homework/tree/main/64030313/homework_week2-02)
 
 ## งานที่ต้องส่ง
