@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 #include "driver/gpio.h"
+#include "blink.h"
 
 void blink(int pin)
 {
