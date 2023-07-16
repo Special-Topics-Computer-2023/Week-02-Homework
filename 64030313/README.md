@@ -1,4 +1,4 @@
-# การบ้าน สัปดาห์ที่ 02
+<img width="1374" alt="15" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/e5d30e3f-b3bb-498b-b474-809581a51553"># การบ้าน สัปดาห์ที่ 02
 
 1. สร้าง idf-project ใหม่
 <img width="892" alt="1" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/cd3c3c90-cd79-424c-ad02-002be02c0b20">
@@ -20,10 +20,31 @@
 
 5. เพิ่ม managed component ใน project ในข้อ 4 โดยการเพิ่มไฟล์ idf_component.yml  ในโฟลเดอร์ main จากนั้น build และ run project
 <img width="866" alt="11" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/489a6e4d-bcdb-44a8-8b32-b492d3fefdc0">
-<img width="758" alt="12" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/95d7615b-428d-497f-8798-786e93b76ed4">
+<img width="758" alt="12" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/95d7615b-428d-497f-8798-786e93b76ed4"><br>
+ไฟล์ idf_component.yml
+<img width="941" alt="13" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/f8be5dd5-c5ba-471c-ad5d-e512488b3335"><br>
+Build Project
+<img width="1376" alt="14" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/8dce8295-5adc-491a-94eb-9a12067b6453"><br>
+Run Project
+<img width="1374" alt="15" src="https://github.com/NamaoySudarat/Week-02-Homework/assets/115037574/575307e0-d1fd-4122-bd3b-3de538535fcc">
 
-6. เขียน code เพื่อแสดงการใช้งาน component ที่เพิ่มเข้ามาในข้อ 5 แล้ว push โปรเจคไว้บน github
+7. เขียน code เพื่อแสดงการใช้งาน component ที่เพิ่มเข้ามาในข้อ 5 แล้ว push โปรเจคไว้บน github
+```c
+#include <stdio.h>
+#include <stdbool.h>
+#include <unistd.h>
+#include <driver/gpio.h>
+#include "blink.h"
 
+void app_main(void)
+{
+	gpio_reset_pin(22);
+	gpio_set_direction(22, GPIO_MODE_OUTPUT);
+    while (true) {
+        blink(22);
+    }
+}
+```
 ## งานที่ต้องส่ง
 1. อธิบายการปฏิบัติงานในแต่ละขั้น หรืออาจจะ capture เป็นคลิปแล้ว upload ขึ้น ํYoutube 
 2. ส่งงานผ่านการ pull request ใน repo นี้ โดยมีสิ่งที่ต้องส่งคือ  
