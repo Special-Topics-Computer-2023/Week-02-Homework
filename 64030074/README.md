@@ -1,52 +1,56 @@
-# Hello World Example
+# 64030074 Thani Paknam
 
-Starts a FreeRTOS task to print "Hello World".
+1.สร้าง component LED ในโปรเจคที่1
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+![image](https://github.com/tnpn2545/Week-02-Homework/assets/115066414/019daebc-02a2-40e0-9a60-f1fec793e8b4)
 
-## How to use example
+2.แก้ไขไฟล์ LED.h ใน component 
 
-Follow detailed instructions provided specifically for this example. 
+```css
+void ON(pin);
+void OFF(pin);
+```
+3. แก้ไขไฟล์ LED.c ใน component
 
-Select the instructions depending on Espressif chip installed on your development board:
+```css
+#include <stdio.h>
+#include "LED.h"
+#include "driver/gpio.h"
 
-- [ESP32 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html)
-- [ESP32-S2 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/index.html)
+void ON(int pin)
+{
+    gpio_set_level(pin, 1);
+}
+void OFF(int pin)
+{
+    gpio_set_level(pin, 0);
+}
+```
+4. แก้ไขไฟล์ CMakeLists.txt 
+```css
+idf_component_register(SRCS "LED.c"
+                       INCLUDE_DIRS "include")
+```
+5.ใช้คำสั่งใน terminal  เพื่อ push เข้า githup
 
+![image](https://github.com/tnpn2545/Week-02-Homework/assets/115066414/776dc6d5-a126-4246-9b9b-ac8f1b4954aa)
 
-## Example folder contents
-
-The project **hello_world** contains one source file in C language [hello_world_main.c](main/hello_world_main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt` files that provide set of directives and instructions describing the project's source files and targets (executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
+6. สร้าง project 2
+7. สร้าง ไฟล์ idf_component.yml และแก้ไขดังนีเพื่อให้สามารถเรียกใช้งาน component จาก github ได้
+```css
+targets:
+  - esp32
+description: component example of esp32
+dependencies:
+  LED_class:
+    git: https://github.com/tnpn2545/IOT.git
+    path: components/LED
 
 ```
-├── CMakeLists.txt
-├── example_test.py            Python script used for automated example testing
-├── main
-│   ├── CMakeLists.txt
-│   ├── component.mk           Component make file
-│   └── hello_world_main.c
-├── Makefile                   Makefile used by legacy GNU Make
-└── README.md                  This is the file you are currently reading
-```
+8. build project เพื่อ clone component ลงมาที่ project ของเรา
+9. แก้ไข code ใน main.c เพื่อเรียกใช้ component
 
-For more information on structure and contents of ESP-IDF projects, please refer to Section [Build System](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html) of the ESP-IDF Programming Guide.
+    # URL
 
-## Troubleshooting
-
-* Program upload failure
-
-    * Hardware connection is not correct: run `idf.py -p PORT monitor`, and reboot your board to see if there are any output logs.
-    * The baud rate for downloading is too high: lower your baud rate in the `menuconfig` menu, and try again.
-
-## Technical support and feedback
-
-Please use the following feedback channels:
-
-* For technical queries, go to the [esp32.com](https://esp32.com/) forum
-* For a feature request or bug report, create a [GitHub issue](https://github.com/espressif/esp-idf/issues)
-
-We will get back to you as soon as possible.
+1. project ที่1 = https://github.com/tnpn2545/IOT
+2. project ที่2 = https://github.com/tnpn2545/IOT2
