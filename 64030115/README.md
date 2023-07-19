@@ -15,6 +15,7 @@
 
 5. เพิ่ม managed component ใน project ในข้อ 4 โดยการเพิ่มไฟล์ idf_component.yml  ในโฟลเดอร์ main จากนั้น build และ run project
 ![image](https://github.com/Prangpanwat/Week-02-Homework/assets/116150897/a3c09d9e-b429-4c60-8acc-b35d0c9427b2)
+![image](https://github.com/Prangpanwat/Week-02-Homework/assets/116150897/fb539d01-3e7b-4fba-b7dd-d90106504a95)
 
 6. เขียน code เพื่อแสดงการใช้งาน component ที่เพิ่มเข้ามาในข้อ 5 แล้ว push โปรเจคไว้บน github
 
