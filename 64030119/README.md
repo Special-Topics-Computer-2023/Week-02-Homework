@@ -1,32 +1,44 @@
-# _Sample project_
-
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
-
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
-
-
-
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
-
-## Example folder contents
-
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
-
+1. สร้าง component LED ในProject1
+2. แก้ไฟล์ LED.h ใน component
+```css
+void ON(pin);
+void OFF(pin);
 ```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
+3. แก้ไขไฟล์ LED.c ใน component
+```css
+#include <stdio.h>
+#include "LED.h"
+#include "driver/gpio.h"
+
+void ON(int pin)
+{
+    gpio_set_level(pin, 1);
+}
+void OFF(int pin)
+{
+    gpio_set_level(pin, 0);
+}
 ```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+4. แก้ไขไฟล์ CMakeLists.txt
+```css
+idf_component_register(SRCS "LED.c"
+                       INCLUDE_DIRS "include")
+```
+5. push project1 ขึ้น github
+6. สร้าง project2
+7. สร้าง ไฟล์ idf_component.yml และแก้ไขดังนี้เพื่อให้สามารถเรียกใช้งาน component จาก github ได้
+```css
+targets:
+  - esp32
+description: component example of esp32
+dependencies:
+  LED_class:
+    https://github.com/PiyatidaPh/spc-hw2.git 
+    path: components/LED //เลือก path ของ component
+```
+8. build project เพื่อ clone component ลงมาที่ project
+9. แก้ไข code ใน main.c เพื่อเรียกใช้ component
+
+# URL
+https://github.com/PiyatidaPh/spc-hw2.git
+https://github.com/PiyatidaPh/iot-ep2.git
