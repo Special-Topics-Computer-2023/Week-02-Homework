@@ -1,9 +1,12 @@
 # การบ้าน สัปดาห์ที่ 02
 
 1. สร้าง idf-project ใหม่
-
+![image](https://github.com/Suthera213/Week-02-Homework/assets/115066359/6c6e350e-0b1d-4eb4-bfe7-76eee415a88c)
 
 2. สร้าง idf-component ขึ้นใน project ที่สร้างในข้อ 1
+![image](https://github.com/Suthera213/Week-02-Homework/assets/115066359/8cf4f07f-cdd9-49b1-aa7c-ef956889bab7)
+
+![image](https://github.com/Suthera213/Week-02-Homework/assets/115066359/2e1fefa7-4882-4317-8271-e95cf96327ca)
 
 
 
