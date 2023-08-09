@@ -1,16 +1,10 @@
 # การบ้าน สัปดาห์ที่ 02
 
 1. สร้าง idf-project ใหม่
-![image](https://github.com/Suthera213/Week-02-Homework/assets/115066359/55e75125-6791-4b85-84cb-eb6650a0bab5)
+
 
 2. สร้าง idf-component ขึ้นใน project ที่สร้างในข้อ 1
-![image](https://github.com/Suthera213/Week-02-Homework/assets/115066359/83fd0a68-23cf-4eeb-b89a-98904b22f1cf)
 
-แก้ไขไฟล์ใน LED.c ใน Components<br>
-![image](https://github.com/Suthera213/Week-02-Homework/assets/115066359/257c6e97-6303-423a-bc53-56520dd9f098)
-
-แก้ไขไฟล์ LED.h ใน Components<br>
-![image](https://github.com/Suthera213/Week-02-Homework/assets/115066359/b7aad3f8-8d3c-4ae3-8674-6fc64e0d379b)
 
 
 4. ทำการ Push project พร้อม component ขึ้นไปที่ remote repository ใน account github ส่วนตัว
