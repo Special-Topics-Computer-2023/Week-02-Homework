@@ -37,7 +37,39 @@ Create a new repository
 ![image](https://github.com/Suthera213/Week-02-Homework/assets/115066359/064f8141-4211-4b1e-9d58-0701e6bb05b5)
 
 
-7. เขียน code เพื่อแสดงการใช้งาน component ที่เพิ่มเข้ามาในข้อ 5 แล้ว push โปรเจคไว้บน github
+6. เขียน code เพื่อแสดงการใช้งาน component ที่เพิ่มเข้ามาในข้อ 5 แล้ว push โปรเจคไว้บน github
+
+![image](https://github.com/Suthera213/Week-02-Homework/assets/115066359/75092cdb-7a4d-4898-8310-7f7158de3182)
+
+```c
+#include <stdio.h>
+#include <stdbool.h>
+#include <unistd.h>
+#include "LED.h" //เรียกใช้ component ที่สร้างไว้
+#include "driver/gpio.h"
+
+#define pin 23 //ตั้งค่า pin เป็นขาที่ 23
+
+void app_main(void)
+{
+	gpio_reset_pin(pin); //รีเซ็ต pin
+	gpio_set_direction(pin,GPIO_MODE_OUTPUT); //เซ็ต pin เป็น output
+
+	while(1) // ทำ loop โดยตั้งลูปเป็น 1 
+	{
+    LEDON(pin); //LEDON เปิดไฟ
+    sleep(1); //ตั้งหน่วงเวลา 1 วิ
+    LEDOFF(pin); //LEDOFF ปิดไฟ
+    sleep(1); 
+	}
+}
+
+
+```
+## Project
+ข้อ3 https://github.com/Suthera213/IOT_WEEK2
+
+ข้อ6 https://github.com/Suthera213/IOT_WEEK2.2
 
 ## งานที่ต้องส่ง
 1. อธิบายการปฏิบัติงานในแต่ละขั้น หรืออาจจะ capture เป็นคลิปแล้ว upload ขึ้น ํYoutube 
