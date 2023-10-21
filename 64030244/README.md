@@ -11,10 +11,27 @@
 ![image](https://github.com/CHAIYAPRUK/Week-02-Homework/assets/115066395/2423477d-ec99-49ae-8c68-095e7c843983)
 
 6. ทำการ Push project พร้อม component ขึ้นไปที่ remote repository ใน account github ส่วนตัว
-7. สร้าง idf-project อีก project ที่ไม่เกี่ยวกับในข้อ 1
-8. เพิ่ม managed component ใน project ในข้อ 4 โดยการเพิ่มไฟล์ idf_component.yml  ในโฟลเดอร์ main จากนั้น build และ run project
-9. เขียน code เพื่อแสดงการใช้งาน component ที่เพิ่มเข้ามาในข้อ 5 แล้ว push โปรเจคไว้บน github
 
+   ![image](https://github.com/CHAIYAPRUK/Week-02-Homework/assets/115066395/f547e2f8-3055-4da8-9dd0-24518f6a0414)
+
+   ![Screenshot 2023-10-21 145343](https://github.com/CHAIYAPRUK/Week-02-Homework/assets/115066395/15fbb82c-5b65-43bc-b0ee-a19cd1ff236a)
+
+
+8. สร้าง idf-project อีก project ที่ไม่เกี่ยวกับในข้อ 1
+
+   ![image](https://github.com/CHAIYAPRUK/Week-02-Homework/assets/115066395/c1be0bd2-9386-493f-9794-a8050e95dc1d)
+
+10. เพิ่ม managed component ใน project ในข้อ 4 โดยการเพิ่มไฟล์ idf_component.yml  ในโฟลเดอร์ main จากนั้น build และ run project
+
+     ![image](https://github.com/CHAIYAPRUK/Week-02-Homework/assets/115066395/2ea30b90-2d8c-4ed2-9f70-7aec9e8c3973)
+
+12. เขียน code เพื่อแสดงการใช้งาน component ที่เพิ่มเข้ามาในข้อ 5 แล้ว push โปรเจคไว้บน github
+
+    ![image](https://github.com/CHAIYAPRUK/Week-02-Homework/assets/115066395/e93ef398-df21-4b3b-ab55-445924a002e5)
+
+Project
+ข้อ.3 https://github.com/CHAIYAPRUK/IOT_WEEK2
+ข้อ.6 https://github.com/CHAIYAPRUK/IOT_WEEK2.2
 ## งานที่ต้องส่ง
 1. อธิบายการปฏิบัติงานในแต่ละขั้น หรืออาจจะ capture เป็นคลิปแล้ว upload ขึ้น ํYoutube 
 2. ส่งงานผ่านการ pull request ใน repo นี้ โดยมีสิ่งที่ต้องส่งคือ  
